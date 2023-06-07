@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoguinActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#FF0000"
+        app:circularflow_viewCenter="@string/app_name"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-29dp">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="122dp"
+            android:layout_height="51dp"
+            android:layout_marginBottom="188dp"
+            android:shadowColor="#000000"
+            android:text="CheckBox"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#000000"
+            android:textColorLink="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.753"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textPassword" />
+
+        <EditText
+            android:id="@+id/textPassword"
+            android:layout_width="320dp"
+            android:layout_height="63dp"
+            android:layout_marginBottom="316dp"
+            android:ems="10"
+            android:hint="Digite sua senha"
+            android:inputType="textPassword"
+            android:shadowColor="#000000"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#000000"
+            android:textColorLink="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.175"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.Material3.Button.IconButton.Filled"
+        android:layout_width="178dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="136dp"
+        android:backgroundTint="#F44336"
+        android:drawableTint="#2196F3"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#2196F3"
+        android:shadowColor="#F44336"
+        android:text="Login"
+        android:textColor="#000000"
+        android:textColorHighlight="#F44336"
+        android:textColorHint="#F44336"
+        android:textColorLink="#F44336"
+        android:textSize="18sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#FFFFFF"
+        app:strokeColor="#000000" />
+
+    <EditText
+        android:id="@+id/textName2"
+        android:layout_width="320dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="400dp"
+        android:ems="10"
+        android:hint="Digite sua nome"
+        android:inputType="textPersonName"
+        android:shadowColor="#000000"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="124dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="4dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:text="+"
+        android:textColor="#FF0000"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="297dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="64dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:text="Vagas Abertas"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

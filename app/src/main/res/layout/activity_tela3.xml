@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="10dp"
+    tools:context=".Tela3Activity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="400dp"
+        android:layout_height="320dp"
+        android:layout_marginBottom="80dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#000000"
+        android:text="O tema é de Infraestrutura da cidade, com o intuito de monitorar os defeitos nas vias pavimentadas do Recife.  A qualidade da pavimentação das vias urbanas está diretamente relacionada à segurança dos usuários, menores custos operacionais (tempo de viagem e manutenção do veículo) e conforto ao rolamento, além de influenciar diretamente na qualidade da mobilidade urbana, dentre outros aspectos sociais. A malha viária do Recife apresenta três tipos básicos de revestimentos: asfalto, paralelepípedo e placas de concreto. Estes são submetidos a um intenso tráfego de veículos e fatores ambientais e ao longo do tempo sofrem desgastes naturais de envelhecimento, como também de forma prematura devido à variadas formas de intervenções no subsolo, como rede de drenagem pluvial, rede de esgoto, abastecimento de água, outros serviços de concessionárias telefônicas, etc. Tudo isso influencia no surgimento de diversos tipos de problemas na pavimentação, como “buracos”, abatimentos, e outros tipos de desgastes mais superficiais. "
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="383dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="420dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#000000"
+        android:text="Como podemos monitorar e identificar, de maneira escalável e em tempo real, os defeitos no pavimento das vias do Recife, trazendo agilidade no direcionamento dessas demandas aos órgãos competentes?"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="110dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#2196F3"
+        android:drawableTint="#2196F3"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#000000"
+        android:shadowColor="#2196F3"
+        android:text="Opine"
+        android:textColor="#000000"
+        android:textColorHighlight="#2196F3"
+        android:textColorLink="#2196F3"
+        android:textSize="20sp"
+        app:iconTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2196F3"
+        app:strokeColor="#2196F3" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="472dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

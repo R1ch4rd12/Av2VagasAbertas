@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tela4Activity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="125dp"
+        android:layout_height="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="E.I.T.ARecife"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="188dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="#2196F3"
+        android:drawableTint="#2196F3"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#000000"
+        android:shadowColor="#2196F3"
+        android:text="Enviar"
+        android:textColor="#000000"
+        android:textColorHighlight="#2196F3"
+        android:textColorLink="#2196F3"
+        android:textSize="20sp"
+        app:iconTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2196F3"
+        app:strokeColor="#2196F3" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="82dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="+"
+        android:textColor="#2196F3"
+        android:textColorHighlight="#FF0000"
+        android:textColorHint="#F40000"
+        android:textColorLink="#E10000"
+        android:textSize="145sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="213dp"
+        android:layout_height="63dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Agilidade"
+        android:textColor="#000000"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="412dp"
+        android:layout_height="184dp"
+        android:layout_marginBottom="272dp"
+        android:ems="10"
+        android:hint="Digite sua opinão ou sugestão ......"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

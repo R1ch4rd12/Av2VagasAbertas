@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MaisAgilidade</string>
+    <string name="name">Nome</string>
+    <string name="remember">Remember</string>
+    <string name="password">Senha</string>
+    <string name="login">Entrar</string>
+</resources>
