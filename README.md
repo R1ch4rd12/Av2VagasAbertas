@@ -1,7 +1,7 @@
-O aplicativo “MaisAgilidade” foi desenvolvido para todos os motorista e passageiro que querem o melhor mas nas nossas rodovias e estradas e sua segurança, 
-esse APPE foi desenvolvido pra da nossas
-opinião e nossas ajuda para melhorar nossas estradas e temos uma viajem tranquila e segura 
+Conectado com Banco de Dados, mais com 2 conexão mas com todos os requesitos que foi pedido no documento 
+As duas conexão foi o senhor que fez então espero q tenha compreensão.
 
 
 
 Dev: José Richard
+Dev: Giovanni Roberto
